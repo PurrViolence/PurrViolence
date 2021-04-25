@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+Por favor no uses mis diseños originales para bases personales sin mi consentimiento. 
+Ante cualquier duda o petición contáctame por DM o correo electrónico en blackroseablaze@gmail.com.
+
 <!--
 **PurrViolence/PurrViolence** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
