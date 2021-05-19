@@ -1,0 +1,113 @@
+@import url("https://SiIentMoon.github.io/Mooncakefonts.css");
+
+/*   One More Time by K ©2021   */
+
+.credik {
+  text-align: center;
+  font: 10px Calibri;
+  margin-top: 10px;
+}
+
+.credik a {color: #787878;padding: 10px;display: inline-block}
+
+#omt {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin: 50px auto 0px;
+}
+
+#omt omt1 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  
+  mask: url('https://dl.dropbox.com/s/ub8m8gnps1fdzqn/cosa1.svg');
+  -webkit-mask: url('https://dl.dropbox.com/s/ub8m8gnps1fdzqn/cosa1.svg');
+  -webkit-mask-size: 550px;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: -10px center;
+  
+  -moz-mask: url('https://dl.dropbox.com/s/ub8m8gnps1fdzqn/cosa1.svg');
+  -moz-mask-size: 550px;
+  -moz-mask-repeat: no-repeat;
+  -moz-mask-position: -10px center;
+  
+  -o-mask: url('https://dl.dropbox.com/s/ub8m8gnps1fdzqn/cosa1.svg');
+  -o-mask-size: 550px;
+  -o-mask-repeat: no-repeat;
+  -o-mask-position: -10px center;
+  
+  -ms-mask: url('https://dl.dropbox.com/s/ub8m8gnps1fdzqn/cosa1.svg');
+  -ms-mask-size: 550px;
+  -ms-mask-repeat: no-repeat;
+  -ms-mask-position: -10px center;
+}
+
+#omt .celebrate {
+  width: 300px;
+  height: 200px;
+  border: 1px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#omt .tonight {
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#omt omt2 {
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  overflow: auto;
+  display: inline-block;
+  text-align: justify;
+  font: 12px Calibri;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#omt omt2::-webkit-scrollbar-thumb{background: none!important;display:none!important}
+#omt omt2::-webkit-scrollbar{background:none; width: 4px;}
+
+#omt .omt-dance {
+  font: 60px Naofumi;
+  font-weight: 600;
+  line-height: 40px;
+  -webkit-background-clip: text!important;
+  color: transparent!important;
+  position: absolute;
+  top: 0px;
+  font-display: swap;
+  left: 50px
+}
+
+#omt .omt-dance omta, #omt .omt-dance omtb {
+  display: block;
+  padding-left: 20px;
+}
+
+#omt .omt-dance omtb {padding-left: 40px!important;}
+
+#omt .omt-dontstop {
+  display: inline-block;
+  font: 10px Calibri;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 5px 10px;
+  position: absolute;
+  top: 360px;
+  right: 100px;  
+}
