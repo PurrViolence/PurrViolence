@@ -1,0 +1,95 @@
+@import url("https://SiIentMoon.github.io/Mooncakefonts.css");
+@import url("https://solrainha.github.io/saturnicons/saturnicons.css");
+@import url("https://solrainha.github.io/honeybee/honeybee.css");
+
+/*   Monochrome by K ©2021   */
+
+.credik {
+  text-align: center;
+  font: 10px Calibri;
+  margin-top: 10px;
+}
+
+/*TABLILLA*/
+#monochrome-01 {
+  width: 500px;
+  height: 200px;
+  position: relative;
+  margin: 80px auto 0px;
+  border-top: ridge 40px;
+}
+
+#monochrome-01 .monochrome01-avatar {
+  width: 120px;
+  height: 120px;
+  background-size: cover!important;
+  background-position: center!important;
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translatey(-50%);
+}
+
+#monochrome-01 k1 {
+  font: 25px Montserrat;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: -2px;
+  font-style: italic;
+  position: absolute;
+  top: 30px;
+  width: calc(500px - 120px - 90px);
+  left: calc(120px + 60px);
+  text-align: right;
+  display: inline-block
+}
+#monochrome-01 k2 {
+  display: inline-block;
+  width: calc(500px - 120px - 90px);
+  left: calc(120px + 60px);
+  height: 100px;
+  overflow: auto;
+  position: absolute;
+  top: 60px;
+  text-align: justify;
+  font: 12px Calibri;
+  line-height: 12px;
+  padding-right: 5px;
+}
+#monochrome-01 k2::-webkit-scrollbar{background:none!important; width: 3px!important;}
+
+#monochrome-01 ka {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+}
+#monochrome-01 ka span {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+#monochrome-01 kb {
+  font: 10px Calibri;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translatey(-50%)
+}
+
+#monochrome-01 .monoch-some {
+  height: 50px;
+  width: 500px;
+  position: absolute;
+  top: -100px;
+  left: 0px;
+}
