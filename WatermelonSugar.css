@@ -1,0 +1,100 @@
+  
+@import url("https://SiIentMoon.github.io/Mooncakefonts.css");
+@import url("https://solrainha.github.io/saturnicons/saturnicons.css");
+@import url("https://solrainha.github.io/honeybee/honeybee.css");
+@import url("https://kit-pro.fontawesome.com/releases/v5.11.2/css/pro.min.css");
+
+
+/*   Watermelon Sugar by K ©2021   */
+
+.credik {
+  text-align: center;
+  font: 10px Calibri;
+  margin-top: 10px;
+}
+
+.credik a {color: #787878!important;text-decoration: none!important}
+
+/*TABLILLA*/
+#summerdays {
+  width: 600px;
+  min-height: 300px;
+  margin: 0px auto;
+  background: #000;
+  border: 1px solid #222;
+  position: relative;
+}
+
+#summerdays .summerdays-banner {
+  width: 100%;
+  height: 200px;
+  background-size: cover!important;
+  position: absolute;
+  top: 50px;
+}
+
+#summerdays .summerdays-avatar {
+  width: 150px;
+  height: 150px;
+  background-size: cover!important;
+  border-radius: 100%;
+  border: 6px solid #000;
+  position: absolute;
+  left: 20px;
+  bottom: -80px;
+}
+
+#summerdays .summerdays-profile {
+  color: #787878;
+  position:relative;
+  margin-top: 340px;
+  margin-left: 25px;
+  width: calc(100% - 25px - 25px);
+}
+
+#summerdays .summer-name {
+  font: 28px Montserrat;
+  font-weight: 900;
+  display: block;
+  color: #dedede;
+}
+
+#summerdays .summer-nam, #summerdays .summer-desc, #summerdays .summerdays-profile k4 {
+  font: 16px Arial;
+}
+
+#summerdays .summer-desc, #summerdays .summer-info, #summerdays .summer-follow, #summerdays .summer-follow b {
+  margin-top: 10px;
+  color: #dedede;
+  text-align: justify;
+}
+
+#summerdays .summer-info, #summerdays .summer-follow {color: #787878!important}
+
+#summerdays .summerdays-tweets {
+  color: #1da1f2;
+  font: 18px Brooklyn;
+  font-weight: 800;
+  position: relative;
+  margin-top: 30px;
+  border-bottom: 1px solid #222;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+#summerdays .summerdays-tweets::before {
+  content: "";
+  width: 66px;
+  height: 3px;
+  background: #1da1f2;
+  position: absolute;
+  bottom: -2px;
+  left: 25px;
+  border-radius: 10px;
+  
+}
+
+#summerdays .summerdays-tweetscon {
+  width: 100%;
+}
