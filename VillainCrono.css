@@ -1,0 +1,262 @@
+@import url("https://SiIentMoon.github.io/Mooncakefonts.css");
+@import url("https://solrainha.github.io/saturnicons/saturnicons.css");
+@import url("https://solrainha.github.io/honeybee/honeybee.css");
+@import url("https://kit-pro.fontawesome.com/releases/v5.11.2/css/pro.min.css");
+
+
+/*   Villain #02 by K ©2021   */
+
+.credik {
+  text-align: center;
+  font: 10px Calibri;
+  margin-top: 10px;
+}
+
+.credik a {color: #787878!important;text-decoration: none!important}
+
+/* TABLILLA */
+#villain01 {
+  width: 600px;
+  height: 600px;
+  margin: 0px auto 0px;
+  position: relative;
+  background-size: cover!important;
+}
+
+.villain-filter {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  mix-blend-mode: multiply
+}
+
+.villain01-b {
+  width: calc(100% - 100px);
+  height: calc(100% - 100px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.villain01-av {
+  width: 260px;
+  height: 500px;
+  background-size: cover!important;
+  border-right: 10px solid;
+  
+}
+
+.filt2 {
+  width: 260px;
+  height: 500px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.villain01-titulo, .v-tit1 {
+  font: 25px Eclipse;
+  position: absolute;
+  top: 30px;
+  width: calc(100% - 280px);
+  left: 275px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.villain01-desc {
+  font: 10px Calibri;
+  width: calc(100% - 300px);
+  text-align: justify;
+  position: absolute;
+  left: 285px;
+  top: 200px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 20px 0px;
+}
+
+.villain01-ico {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0.5;
+  width: 205px;
+  height: 190px;
+}
+
+.villain01-ico span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 190px;
+}
+
+.v-tit1 {
+  z-index: 2!important;
+  left: 10px!important;
+  width: calc(100% - 20px);
+  top: 40px;
+}
+
+.vminic {
+  position: absolute;
+  left: 50%;
+  top: 120px;
+  transform: translatex(-50%);
+  width: 50px;
+  height: 50px;
+}
+
+.vminic span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+
+}
+
+.vminic:before {
+  content: "{";
+  font: 60px Georgia;
+  position: absolute;
+  top: -13px;
+  left: -20px;
+  display: inline-block;
+  font-display: swap;
+}
+.vminic:after {
+  content: "}";
+  font: 60px Georgia;
+  position: absolute;
+  top: -13px;
+  right: -20px;
+  display: inline-block;
+  font-display: swap;
+}
+
+.vtemc {
+  width: calc(100% - 20px);
+  height: 290px;
+  position: absolute;
+  left: 10px;
+  bottom: 13px;
+  overflow: auto;
+  font: 13px Calibri;
+  text-align: left;
+  line-height: 5px;
+}
+
+.vtemc a {
+  font: 21px Bebas Neue;
+  text-decoration: none;
+  display: inline-block;
+  font-display: swap;
+  font-style: italic;
+}
+
+.vtemc span {display: block;font-display: swap}
+
+.vtemc::-webkit-scrollbar-thumb{background: none;display: none!important}
+.vtemc::-webkit-scrollbar{background:none; width: 4px;display: none!important}
+
+/*BASE*/
+.villain01-cbot {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/*BOTONES*/
+.villain01-cbot input {display: none;}
+.villain01-cbot input + label {
+  display: inline-block;
+  position: absolute;
+  top: calc(50% + 10px);
+  transform: translatey(calc(-50% + 10px));
+  border-bottom: 4px solid transparent;
+  transition: .6s;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.villain01-cbot input:checked + label {opacity: 1;}
+
+.villain01-cbot #vtab1 + label {left: 50px}
+.villain01-cbot #vtab2 + label {left: calc(50px * 2 + 5px)}
+.villain01-cbot #vtab3 + label {left: calc(50px * 3 + 5px * 2)}
+
+.villain01-cbot #vclose + label {
+  padding: 0!important;
+  border: none;
+  top: 0px;
+  left: 270px;
+  z-index: 2;
+  opacity: 0;
+  visibility: collapse;
+}
+
+.vbuttons {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.vbuttons span {
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.vbutc {
+  width: 30px;
+  height: 30px;
+}
+
+.vbutc span {
+  font-size: 10px!important;
+}
+
+.vbutc:hover .vbutc1 {animation: vafle 3s linear infinite}
+@keyframes vafle {
+  0%{left: 50%}
+  25% {left: calc(50% - 5px)}
+  50%{left: 50%}
+  75% {left: calc(50% - 5px)}
+  100%{left: 50%}
+}
+
+#vtab1:checked ~ .vclose1 + label, #vtab2:checked ~ .vclose2 + label, #vtab3:checked ~ .vclose3 + label {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*CONTENIDO*/
+.vtab {
+  visibility: collapse;
+  opacity: 0;
+  transition: .6s ease;
+  height: 500px;
+  width: calc(100% - 270px);
+  background: #000;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 0;
+}
+
+#vtab1:checked ~ .vcontent1, #vtab2:checked ~ .vcontent2, #vtab3:checked ~ .vcontent3 {
+  opacity: 1;
+  visibility: visible;
+}
