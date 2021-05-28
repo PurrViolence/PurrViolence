@@ -1,0 +1,98 @@
+@import url("https://SiIentMoon.github.io/Mooncakefonts.css");
+@import url("https://solrainha.github.io/saturnicons/saturnicons.css");
+@import url("https://solrainha.github.io/honeybee/honeybee.css");
+@import url("https://kit-pro.fontawesome.com/releases/v5.11.2/css/pro.min.css");
+
+
+/*   The Business by K ©2021   */
+
+.credik {
+  text-align: center;
+  font: 10px Calibri;
+  margin-top: 10px;
+}
+
+.credik a {color: #787878!important;text-decoration: none!important}
+
+/* TABLILLA */
+#TheBusiness {
+  width: 500px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.tb-01 {
+  font-size: 70px;
+  font-family: Zombie Two;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: inline-block;
+}
+
+.tb-01 t1 {
+  display: inline-block;
+}
+
+.tb-01 t2 {
+  font-size: 8px;
+  font-family: Montserrat;
+  font-weight: 900;
+  padding: 5px 0px;
+  position: absolute;
+  text-align: center;
+  display: block;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  width: 100%;
+  text-shadow: 1px 1px 2px lightskyblue, -1px -1px 2px violet;
+  letter-spacing: 1px;
+}
+
+.tb-02 {
+  font-size: 12px;
+  font-family: Calibri;
+  text-align: justify;
+  padding: 20px 60px 50px;
+  color: #787878;
+  line-height: 12px;
+}
+
+.tb-03 {
+  width: 500px;
+  position: relative;
+  margin: 10px auto 0px;
+}
+
+.tb-04 {
+  width: 100px;
+  height: 100px;
+  background-size: cover!important;
+  filter: grayscale(1);
+  border: 20px solid;
+}
+
+.tb-05 {
+  width: calc(100% - 100px - 40px - 10px);
+  text-align: justify;
+  height: calc(100px + 40px);
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.tb-05 span {
+  display: inline-block;
+  max-height: calc(100% - 40px);
+  font: 12px Calibri;
+  line-height: 12px;
+  width: calc(100% - 40px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
