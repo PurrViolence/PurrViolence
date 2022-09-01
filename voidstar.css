@@ -9,8 +9,8 @@
 .vd-4 {position: absolute;top: 200px;width: 120px;left: 50%;transform: translate(-50%, 0%);opacity: 0.5}
 .vd-4 vdd {font: 8px Times new Roman;display: inline-block;text-transform: uppercase;font-weight: 900;font-style: italic;width: 120px;text-align: center;position: relative;overflow: hidden;color: var(--cv3);letter-spacing: 1px;padding: 5px 0px;margin-bottom: 5px}
 .vd-4 vd4a, .vd-4 vd4b {display: inline-block;width: 100%;height: 2px;position: absolute;left: 0px;background: var(--cv3);box-shadow: 1px 1px 7px var(--cv2), -1px -1px 7px var(--cv2);}
-.vd-4 vd4a {top: 2px;animation: vdle 2s linear infinite;}
-.vd-4 vd4b {bottom: 2px;animation: vdri 2s linear infinite;}
+.vd-4 vd4a {top: 2px;animation: vdle 10s linear infinite;}
+.vd-4 vd4b {bottom: 2px;animation: vdri 10s linear infinite;}
 @keyframes vdri {0% {left: 120px; }
 	35% {left: 0; }
   100% {left: -120px;}}
