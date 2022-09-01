@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.void {width: 500px;height: 400px;position: relative;margin: 0px auto 10px;}
+.vd-1 {width: 100%;height: 400px;background-color: rgb(0,0,0,0.6);position: absolute;top: 0px;left: 0px;}
+.vd-2 {width: 150px;height: 400px;background-color: var(--cbg);position: absolute;top: 0px;left: 0px;}
+.vd-3 {width: 100px;height: 100px;border-radius: 100%;position: absolute;top: 40px;left: 50%;transform: translate(-50%, 0%);z-index: 2;background-size: cover}
+.vd-3a {width: 120px;height: 120px;border: 3px solid var(--cv1);border-radius: 100%;position: absolute;top: 30px;left: 50%;transform: translate(-50%, 0%);opacity: 0.4}
+.vd-3a::before {content: '';width: 150px;height: 100px;background: var(--cbg);position: absolute;top: -10px;left: -15px;}
+.vd-3b {width: 3px;height: 30px;background: var(--cv1);position: absolute;left: 50%;transform: translate(-50%, 0%);top: 156px;opacity: 0.4}
+.vd-4 {position: absolute;top: 200px;width: 120px;left: 50%;transform: translate(-50%, 0%);opacity: 0.5}
+.vd-4 vdd {font: 7px Times new Roman;display: inline-block;text-transform: uppercase;font-weight: 600;font-style: italic;width: 120px;text-align: center;position: relative;overflow: hidden;color: var(--cv3);letter-spacing: 1px;padding: 5px 0px;margin-bottom: 5px}
+.vd-4 vd4a, .vd-4 vd4b {display: inline-block;width: 100%;height: 2px;position: absolute;left: 0px;background: var(--cv3);box-shadow: 1px 1px 7px var(--cv2), -1px -1px 7px var(--cv2);}
+.vd-4 vd4a {top: 2px;animation: vdle 2s linear infinite;}
+.vd-4 vd4b {bottom: 2px;animation: vdri 2s linear infinite;}
+@keyframes vdri {0% {left: 120px; }
+	35% {left: 0; }
+  100% {left: -120px;}}
+@keyframes vdle {0% {left:-120px; }
+	35% {left:0; }
+  100% {left: 120px;}}
+.vd-6 {width: calc(500px - 150px - 60px);height: calc(400px - 60px);position: absolute;right: 30px;top: 30px;overflow: auto}
+.vd-7 {width: 200px;height: 200px;background-size: cover;margin: -10px auto 0px;position: relative}
+.vd-8 {font: 80px Montserrat;text-transform: uppercase;font-weight: 900;font-style: italic;letter-spacing: -8px;text-align: center;line-height: 58px;color: var(--cv1);opacity: 0.4}
+.vd-9 {color: var(--cvf);font: 13px Times New Roman;text-align: justify;margin: 100px 30px 30px;line-height: 14px}
+.vd-10 {width: 100%;height: 30px;position: relative;margin: 40px 0px 30px}
+.vd-i {font: 50px Montserrat;text-transform: uppercase;font-weight: 900;position: absolute;top: -13px;left: 0px;color: var(--cv2);z-index: 3!important;opacity: 0.4}
+.vd-10::before {content: '';width: 60px;height: 60px;border-radius: 100%;border: 2px solid var(--cv3);position: absolute;top: -18px;left: -15px;z-index: 1!important;opacity: 0.4}
+.vd-10::after {content: '';width: 40px;height: 65px;background: var(--cbg);position: absolute;top: -18px;left: -15px;z-index: 2!important}
+.vd-t {font: 9px Times New Roman;position: absolute;top: 50%;transform: translate(0%, -50%);left: 50px;text-transform: lowercase;font-style: italic;color: var(--cv3);opacity: 0.7}
+.vd-t::before {content: '——';margin-right: 5px;}
+.kcre {color: #fff;font: 10px Calibri;text-transform: lowercase;margin: 0px auto;width: 490px;text-align: right;font-weight: 500}
